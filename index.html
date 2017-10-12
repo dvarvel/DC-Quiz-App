@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+	<title>DC Quizzicle</title>
+	<meta charset="utf-8" description='The first adaptive test on local knoweldge of our National Capitol, Washington DC'>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="grid.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<script src="main.js" type="text/javascript"></script>
+	
+</head>
+
+<body>
+
+<header>
+	<div class='superTitle'>
+		<h1 class='title'>The Magnificent DC Quizzicle</h1>
+	</div>
+	<div>
+		<h4 class = 'byLine'>Presented by <span>Svendrick</span></h3>
+	</div>
+</header>
+
+<button class='js-starter'>Start the Quiz!</button>
+
+
+<form class='QA'>
+	<fieldset name='questionOne' class='hidden js-questionOne'>
+	<legend class='qTitle'>Question One</legend>
+	<label for='user-answer' class='question'>Which Washington D.C. memorial is a series of quotations located amongst a group of small waterfalls?</label>
+	<br>
+		<input type="radio" name="answer1" id="ans-WWII" value="0" required><label for="ans-WWII">The World War II Memorial</label>
+        <input type="radio" name="answer1" id="ans-Viet" value="1" required><label for="ans-Viet">The Vietnam Memorial</label>
+        <input type="radio" class='correct' name="answer1" id="ans-FDR" value="2" required><label for="ans-FDR">The Franklin Delano Roosevelt Memorial</label>
+        <input type="radio" name="answer1" id="ans-Jeff" value="3" required><label for="ans-Jeff">The Jefferson Memorial</label>
+        <br>
+	<button class='checkButton js-answerButton' type='submit'>Check Answer</button>
+	<button class='nextButton hidden js-nextButton' type='submit'>Next Question</button>
+	</fieldset>
+</form>
+
+<form class='QA'>
+	<fieldset name='questionTwo' class='hidden'>
+	<legend class='qTitle'>Question Two</legend>
+	<label for='user-answer' class='question'>What is the name of the President’s desk in the Oval Office?</label>
+	<br>
+		<input type="radio" class='correct' name="answer2" id="ans-Reso" value="0" required><label for="ans-Reso">The Resolute Desk</label>
+        <input type="radio" name="answer2" id="ans-Linc" value="1" required><label for="ans-Linc">The Lincoln Desk</label>
+        <input type="radio" name="answer2" id="ans-Free" value="2" required><label for="ans-Free">The Freedom Desk</label>
+        <input type="radio" name="answer2" id="ans-Cons" value="3" required><label for="ans-Cons">The Constitution Desk</label>
+	<br>
+	<button class='checkButton js-answerButton' type='submit'>Check Answer</button>
+	<button class='nextButton hidden js-nextButton' type='submit'>Next Question</button>
+	</fieldset>
+</form>
+
+<form class='QA'>
+	<fieldset name='questionThree' class='hidden'>
+	<legend class='qTitle'>Question Three</legend>
+	<label for='user-answer' class='question'>Which of the following organizations is responsible for storing the official notes and papers of the President?</label>
+	<br>
+		<input type="radio" name="answer3" id="ans-LOC" value="0" required><label for="ans-LOC">The Library of Congress</label>
+        <input type="radio" class='correct' name="answer3" id="ans-NARA" value="1" required><label for="ans-NARA">The National Archives</label>
+        <input type="radio" name="answer3" id="ans-EOP" value="2" required><label for="ans-EOP">The Executive Office of the President</label>
+        <input type="radio" name="answer3" id="ans-DOS" value="3" required><label for="ans-DOS">U.S. Department of State</label>
+	<br>
+	<button class='checkButton js-answerButton' type='submit'>Check Answer</button>
+	<button class='nextButton hidden js-nextButton' type='submit'>Next Question</button>
+	</fieldset>
+</form>
+
+<form class='QA'>
+	<fieldset name='questionFour' class='hidden'>
+	<legend class='qTitle'>Question Four</legend>
+	<label for='user-answer' class='question'>In which DC neighborhood is Former President Obama’s current house?</label>
+	<br>
+		<input type="radio" name="answer4" id="ans-Dupo" value="0" required><label for="ans-Dupo">Dupont Circle</label>
+        <input type="radio" name="answer4" id="ans-LinP" value="1" required><label for="ans-LinP">Lincoln Park</label>
+        <input type="radio" name="answer4" id="ans-Fogg" value="2" required><label for="ans-Fogg">Foggy Bottom</label>
+        <input type="radio" class='correct' name="answer4" id="ans-Kalo" value="3" required><label for="ans-Kalo">Kalorama</label>
+        <br>
+        <button class='checkButton js-answerButton' type='submit'>Check Answer</button>
+        <button class='nextButton hidden js-nextButton' type='submit'>Next Question</button>
+	</fieldset>
+</form>
+
+
+<form class='QA'>
+	<fieldset name='questionFive' class='hidden'>
+	<legend class='qTitle'>Question Five</legend>
+	<label for='user-answer' class='question'>Which of these is <span style='font-weight: bold'>not</span> the color of a DC metro line?</label>
+	<br>
+		<input type="radio" name="answer4" id="ans-Orange" value="0" required><label for="ans-Orange">Orange</label>
+        <input type="radio" name="answer4" id="ans-Green" value="1" required><label for="ans-Green">Green</label>
+        <input type="radio" name="answer4" id="ans-Blue" value="2" required><label for="ans-Blue">Blue</label>
+        <input type="radio" class='correct' name="answer4" id="ans-White" value="3" required><label for="ans-White">White</label>
+        <br>
+        <button class='checkButton js-answerButton' type='submit'>Check Answer</button>
+        <button class='nextButton hidden js-nextButton' type='submit'>Next Question</button>
+	</fieldset>
+</form>
+
+
+<form class='QA'>
+	<fieldset name='questionSix' class='hidden'>
+	<legend class='qTitle'>Question Six</legend>
+	<label for='user-answer' class='question'>Where does the Vice President live?</label>
+	<br>
+		<input type="radio" class='correct' name="answer4" id="ans-Nava" value="0" required><label for="ans-Nava">The Naval Observatory</label>
+        <input type="radio" name="answer4" id="ans-Blai" value="1" required><label for="ans-Blai">Blair House</label>
+        <input type="radio" name="answer4" id="ans-Corc" value="2" required><label for="ans-Corc">The Corcoran</label>
+        <input type="radio" name="answer4" id="ans-FedT" value="3" required><label for="ans-FedT">Federal Triangle</label>
+        <br>
+        <button class='checkButton js-answerButton' type='submit'>Check Answer</button>
+        <button class='nextButton hidden js-nextButton' type='submit'>Next Question</button>
+	</fieldset>
+</form>
+
+
+<form class='QA'>
+	<fieldset name='questionSeven' class='hidden'>
+	<legend class='qTitle'>Question Seven</legend>
+	<label for='user-answer' class='question'>What are the primary avenues in Washington, DC named after?</label>
+	<br>
+		<input type="radio" name="answer4" id="ans-Form" value="0" required><label for="ans-Form">Former Presidents</label>
+        <input type="radio" class='correct' name="answer4" id="ans-USSt" value="1" required><label for="ans-USSt">U.S. States</label>
+        <input type="radio" name="answer4" id="ans-Fore" value="2" required><label for="ans-Fore">Foreign Countries</label>
+        <input type="radio" name="answer4" id="ans-Famo" value="3" required><label for="ans-Famo">Famous Americans</label>
+        <br>
+        <button class='checkButton js-answerButton' type='submit'>Check Answer</button>
+        <button class='nextButton hidden js-nextButton' type='submit'>Next Question</button>
+	</fieldset>
+</form>
+
+
+<form class='QA'>
+	<fieldset name='questionEight' class='hidden'>
+	<legend class='qTitle'>Question Eight</legend>
+	<label for='user-answer' class='question'>What was the name of the theatre where President Lincoln was shot?</label>
+	<br>
+		<input type="radio" class='correct' name="answer4" id="ans-Ford" value="0" required><label for="ans-Ford">Ford’s Theatre</label>
+        <input type="radio" name="answer4" id="ans-NatT" value="1" required><label for="ans-NatT">The National Theatre</label>
+        <input type="radio" name="answer4" id="ans-Ster" value="2" required><label for="ans-Ster">Sterling Theatre</label>
+        <input type="radio" name="answer4" id="ans-Boot" value="3" required><label for="ans-Boot">Booth Theatre</label>
+        <br>
+        <button class='checkButton js-answerButton' type='submit'>Check Answer</button>
+        <button class='nextButton hidden js-nextButton' type='submit'>Next Question</button>
+	</fieldset>
+</form>
+
+<form class='QA'>
+	<fieldset name='questionNine' class='hidden'>
+	<legend class='qTitle'>Question Nine</legend>
+	<label for='user-answer' class='question'>Where is the U.S. Supreme Court?</label>
+	<br>
+		<input type="radio" class='correct' name="answer4" id="ans-CapH" value="0" required><label for="ans-CapH">On Capitol Hill</label>
+        <input type="radio" name="answer4" id="ans-WhHs" value="1" required><label for="ans-WhHs">Near the White House</label>
+        <input type="radio" name="answer4" id="ans-FogB" value="2" required><label for="ans-FogB">In Foggy Bottom</label>
+        <input type="radio" name="answer4" id="ans-Down" value="3" required><label for="ans-Down">In Downtown</label>
+        <br>
+        <button class='checkButton js-answerButton' type='submit'>Check Answer</button>
+        <button class='nextButton hidden js-nextButton' type='submit'>Next Question</button>
+	</fieldset>
+</form>
+
+<form class='QA'>
+	<fieldset name='questionTen' class='hidden'>
+	<legend class='qTitle'>Question Ten</legend>
+	<label for='user-answer' class='question'>Where is Arlington National Cemetery?</label>
+	<br>
+		<input type="radio" class='correct' name="answer4" id="ans-ARVA" value="0" required><label for="ans-LOC">Arlington, Virginia</label>
+        <input type="radio" name="answer4" id="ans-ALMA" value="1" required><label for="ans-NARA">Alexandria, Maryland</label>
+        <input type="radio" name="answer4" id="ans-WADC" value="2" required><label for="ans-EOP">Washington, DC</label>
+        <input type="radio" name="answer4" id="ans-ALVA" value="3" required><label for="ans-DOS">Alexandria, Virginia</label>
+        <br>
+        <button class='checkButton js-answerButton' type='submit'>Check Answer</button>
+        <button class='nextButton hidden js-nextButton' type='submit'>Next Question</button>
+	</fieldset>
+</form>
+
+
+<footer class='js-score hidden'>
+	<h3>Current Score</h3>
+	<div>
+		<span class='js-currentScore'></span> out of <span class='js-questionsAnswered'></span>
+	</div>
+</footer>
+
+</body>
+</html>

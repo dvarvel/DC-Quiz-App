@@ -1,0 +1,145 @@
+.hidden {
+	display: none;
+}
+
+header {
+	max-height: 50%;
+}
+
+.highlight {
+	color: green;
+	font-weight: bold;
+}
+
+.lowlight {
+	color: red;
+	font-weight: bold;
+	text-decoration: line-through;
+}
+
+.superTitle{
+	margin-top: 20%;
+	width: 80%;
+	background: cornflowerblue;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 40px;
+	font-size: 4vw;
+	padding: 10px;
+}
+
+
+.title{
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+
+.byLine{
+	font-family: 'Indie Flower', cursive;
+	background: white;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.byLine span {
+	color: darkgrey;
+}
+
+body>button {
+	display: block;
+	font-size: 6vw;
+}
+
+button{
+	display: block;
+	color: lightgrey;
+	border: 2px lightgrey solid;
+	border-radius: 10px;
+	margin: 0 auto;
+	font-family: 'Merriweather', serif;
+	background: white;
+	padding: 15px;
+}
+
+button:hover {
+	color: cornflowerblue;
+	border: 2px darkgrey solid;
+	/*text-shadow: 1px 0 50px;*/
+	box-shadow: 3px 0 50px;
+}
+
+button:active {
+	border: 4px cornflowerblue solid;
+}
+
+
+fieldset{
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	border: 1px black solid;
+	padding: 40px;
+}
+
+legend{
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 4vw;
+}
+
+
+label.question{
+	padding-left: 20px;
+	display: block;
+	margin-bottom: 15px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-size: 2vw;
+}
+
+form>button{
+	display: block;
+	margin-top: 10px;
+}
+
+label[for^="ans"]{
+	font-family: 'Indie Flower', cursive;
+	display: block;
+	margin-bottom: 30px;
+	font-size: 2vw;
+}
+
+.checkButton, .nextButton{
+	font-size: 2vw;
+}
+
+footer{
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	opacity: 0.9;
+	background: white;
+}
+
+footer>h3{
+	text-align: center;
+	margin-bottom: 5px;
+	font-family: 'Indie Flower', cursive;
+	color: cornflowerblue;
+	font-size: 2vw;
+}
+
+footer>div{
+	margin: auto;
+	width: 74px;
+	font-family: 'Merriweather', serif;
+	font-weight: lighter;
+	margin-bottom:10px;
+}
+
+footer span{
+	color: cornflowerblue;
+}
+
