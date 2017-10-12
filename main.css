@@ -4,6 +4,7 @@
 
 header {
 	max-height: 50%;
+	margin-bottom: 20px;
 }
 
 .highlight {
@@ -24,7 +25,7 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 40px;
-	font-size: 4vw;
+	font-size: 3vw;
 	padding: 10px;
 }
 
@@ -78,9 +79,10 @@ button:active {
 fieldset{
 	margin-left: auto;
 	margin-right: auto;
-	width: 60%;
+	width: 70%;
 	border: 1px black solid;
-	padding: 40px;
+	padding: 20px;
+	max-width: 500px;
 }
 
 legend{
@@ -96,7 +98,7 @@ label.question{
 	margin-bottom: 15px;
 	text-align: center;
 	font-family: 'Merriweather', serif;
-	font-size: 2vw;
+	font-size: 20px;
 }
 
 form>button{
@@ -107,7 +109,7 @@ form>button{
 label[for^="ans"]{
 	font-family: 'Indie Flower', cursive;
 	display: block;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	font-size: 2vw;
 }
 
@@ -141,5 +143,9 @@ footer>div{
 
 footer span{
 	color: cornflowerblue;
+}
+
+h1.title {
+	margin-bottom: 10px;
 }
 
